@@ -80,7 +80,7 @@ with col_left:
         showlegend=False, coloraxis_showscale=False,
         plot_bgcolor="white", paper_bgcolor="white",
         font_family="DM Sans", title_font_size=16,
-        margin=dict(t=50, b=20)
+        margin=dict(t=100, b=20)
     )
     st.plotly_chart(fig_bar, use_container_width=True)
 
@@ -94,7 +94,7 @@ with col_right:
         plot_bgcolor="white", paper_bgcolor="white",
         font_family="DM Sans", title_font_size=16,
         legend=dict(orientation="h", yanchor="bottom", y=1.02, title=""),
-        margin=dict(t=60, b=20)
+        margin=dict(t=100, b=20)
     )
     st.plotly_chart(fig_path, use_container_width=True)
 
